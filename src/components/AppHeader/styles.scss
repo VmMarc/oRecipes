@@ -1,0 +1,11 @@
+@use '../../styles/variables' as v;
+
+.header {
+  padding: v.$halfGutter v.$gutter;
+  box-shadow: 0 20px 20px -30px rgba(0,0,0,.4);
+  text-align: center;
+
+  &-logo {
+    width: 50px;
+  }
+}
